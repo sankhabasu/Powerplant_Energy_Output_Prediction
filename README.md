@@ -37,7 +37,6 @@ The complete workflow includes data loading, preprocessing, feature scaling, ten
 - Adam Optimizer
 - Mean Squared Error (MSE)
 - R² Score
-- CUDA / GPU
 - Jupyter Notebook
 
 ---
@@ -110,28 +109,6 @@ Predicted Energy Output
 - Output Layer → **1 neuron**
 
 The model was implemented using PyTorch's `nn.Sequential` and trained using the Adam optimizer with Mean Squared Error (MSE) as the loss function.
-
----
-
-# 🖥️ **GPU Acceleration**
-
-The ANN was trained using GPU acceleration through CUDA.
-
-PyTorch
-
-↓
-
-CUDA
-
-↓
-
-NVIDIA GPU
-
-↓
-
-ANN Training
-
-The model was trained using an **NVIDIA GeForce RTX 2050** GPU.
 
 ---
 
@@ -271,7 +248,6 @@ powerplant_energy_output_prediction
 - Best model parameter saving
 - Model evaluation using MSE
 - R² score calculation
-- Actual vs predicted value analysis
 
 ---
 
