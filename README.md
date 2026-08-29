@@ -243,7 +243,6 @@ powerplant_energy_output_prediction
 - ReLU activation
 - MSE loss calculation
 - Adam optimization
-- GPU acceleration using CUDA
 - Training and validation loss tracking
 - Best model parameter saving
 - Model evaluation using MSE
