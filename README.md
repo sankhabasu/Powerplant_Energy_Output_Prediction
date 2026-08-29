@@ -275,35 +275,6 @@ powerplant_energy_output_prediction
 
 ---
 
-# 📊 **Prediction Analysis**
-
-The trained model generates predicted energy output values and compares them with the actual values from the test dataset.
-
-Example:
-
-| Predicted Energy | Actual Energy |
-|------------------:|--------------:|
-| 435.81 | 433.27 |
-| 437.93 | 438.16 |
-| 460.93 | 458.42 |
-| 475.94 | 480.82 |
-| 435.55 | 441.41 |
-
----
-
-# 🚀 **Future Improvements**
-
-- Hyperparameter tuning
-- Experiment with deeper ANN architectures
-- Compare ANN with traditional regression algorithms
-- Implement early stopping
-- Add additional evaluation metrics such as MAE and RMSE
-- Deploy the model as a web application
-- Build an interactive prediction dashboard
-- Perform real-time energy output prediction
-
----
-
 # 👨‍💻 **Author**
 
 **Sankhasubhra Basu**
